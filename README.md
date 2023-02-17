@@ -6,7 +6,7 @@
 
 ```hcl
 module "app-mesh" {
-    source = "github.com/pbs/terraform-aws-app-mesh-module?ref=0.0.2"
+    source = "github.com/pbs/terraform-aws-app-mesh-module?ref=0.0.3"
 }
 ```
 
@@ -22,7 +22,7 @@ Integrate this module like so:
 
 ```hcl
 module "app-mesh" {
-  source = "github.com/pbs/terraform-aws-app-mesh-module?ref=0.0.2"
+  source = "github.com/pbs/terraform-aws-app-mesh-module?ref=0.0.3"
 
   # Tagging Parameters
   organization = var.organization
@@ -38,7 +38,7 @@ module "app-mesh" {
 
 If this repo is added as a subtree, then the version of the module should be close to the version shown here:
 
-`0.0.2`
+`0.0.3`
 
 Note, however that subtrees can be altered as desired within repositories.
 
