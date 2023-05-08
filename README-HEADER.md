@@ -1,13 +1,13 @@
-# PBS TF app mesh module
+# PBS TF App Mesh Module
 
 ## Installation
 
 ### Using the Repo Source
 
+Use this URL for the source of the module. See the usage examples below for more details.
+
 ```hcl
-module "app-mesh" {
-    source = "github.com/pbs/terraform-aws-app-mesh-module?ref=x.y.z"
-}
+github.com/pbs/terraform-aws-app-mesh-module?ref=x.y.z
 ```
 
 ### Alternative Installation Methods
@@ -21,7 +21,7 @@ This module provisions a basic App Mesh.
 Integrate this module like so:
 
 ```hcl
-module "app-mesh" {
+module "app_mesh" {
   source = "github.com/pbs/terraform-aws-app-mesh-module?ref=x.y.z"
 
   # Tagging Parameters
