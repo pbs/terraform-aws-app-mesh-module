@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@main
 
       - name: Setup rtx
-        uses: jdx/rtx-action@v1
+        uses: jdx/mise-action@v2
 
       - name: "Lint"
         run: ./scripts/lint.sh
