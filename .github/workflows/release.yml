@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@main
 
-      - name: Setup rtx
+      - name: Setup mise
         uses: jdx/mise-action@v2
 
       - name: "Run document script if necessary"
