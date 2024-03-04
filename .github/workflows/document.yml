@@ -28,7 +28,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup rtx
+      - name: Setup mise
         uses: jdx/mise-action@v2
 
       - name: "Generate documentation"
